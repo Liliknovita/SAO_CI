@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> Dashboard - Login CodeIgniter & Bootstrap</title>
+    <title>SMAN 1 GAMBIRAN </title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -16,7 +16,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Login CodeIgniter & Bootstrap</a>
+          <a class="navbar-brand" href="#">SELAMAT DATANG </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <div class="navbar-form navbar-right">
@@ -34,7 +34,7 @@
               <a href="<?php echo site_url ('proker')?>" class="list-group-item"><i class="fa fa-dashboard"></i> Absensi</a>
               <a href="#" class="list-group-item"><i class="fa fa-book"></i> Surat</a>
               <a href="<?php echo site_url ('proker')?>" class="list-group-item"><i class="fa fa-folder"></i> proker</a>
-              <a href="#" class="list-group-item"><i class="fa fa-comments-o"></i> inventaris</a>
+              <a href="<?php echo site_url ('inventaris')?>" class="list-group-item"><i class="fa fa-comments-o"></i> inventaris</a>
               <a href="#" class="list-group-item"><i class="fa fa-comments-o"></i> catatan</a>
               <a href="logout.php" class="list-group-item"><i class="fa fa-sign-out"></i> Logout</a>
             </div>
@@ -42,7 +42,7 @@
         <div class="col-md-9">
             <div class="panel panel-default">
               <div class="panel-heading">
-                <h3 class="panel-title"><i class="fa fa-dashboard"></i> Dashboard</h3>
+                <h3 class="panel-title"><i class="fa fa-dashboard"></i> HOME</h3>
               </div>
               <div class="panel-body">
                 Selamat Datang <b><?php echo $this->session->userdata("user_nama") ?></b> di halaman Administrator System
