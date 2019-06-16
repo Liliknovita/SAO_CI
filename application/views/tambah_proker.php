@@ -12,7 +12,7 @@
 
               <div class="form-group">
                 <label for="text">id proker</label>
-                <input type="text" name="no_isbn" class="form-control" placeholder="Masukkan id_proker">
+                <input type="text" name="id_proker" class="form-control" placeholder="Masukkan id_proker">
               </div>
 
               <div class="form-group">
