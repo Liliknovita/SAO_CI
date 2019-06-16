@@ -27,11 +27,11 @@
 
               <div class="form-group">
                 <label for="text">id_pengurus</label>
-                <input type="text" name="pengurus" value="<?php echo $data_proker->id_pengurus ?>" class="form-control" >
+                <input type="text" name="id_pengurus" value="<?php echo $data_proker->id_pengurus ?>" class="form-control" >
               </div>
               <div class="form-group">
                 <label for="text">Tempat</label>
-                <input type="text" name="pengurus" value="<?php echo $data_proker->tempat ?>" class="form-control" >
+                <input type="text" name="tempat" value="<?php echo $data_proker->tempat ?>" class="form-control" >
               </div>
 
 

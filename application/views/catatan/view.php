@@ -1,5 +1,8 @@
+<!DOCTYPE html>
+<html>
 <head>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
+    <title>Catatan</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css">
 </head>
 <body>
@@ -45,7 +48,13 @@ if( ! empty($gambar)){ // Jika data pada database tidak sama dengan empty (alias
 
 ?>
 </table>
+<button onclick="goBack()">Go Back</button>
+                <script>
+                function goBack() {
+                window.history.back();
 </div>
+</div>
+
 </div>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -56,3 +65,5 @@ if( ! empty($gambar)){ // Jika data pada database tidak sama dengan empty (alias
 
 </script>
 </body>
+</html>
+

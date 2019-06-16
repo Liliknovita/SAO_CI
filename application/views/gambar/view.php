@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title><?php echo $title ?></title>
+    <title>Surat</title>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css">
 </head>
@@ -31,6 +31,7 @@
 <tbody>
   <tr>
 <?php
+
 if( ! empty($gambar)){ // Jika data pada database tidak sama dengan empty (alias ada datanya)
   foreach($gambar as $data){ // Lakukan looping pada variabel gambar dari controller
 
@@ -41,7 +42,8 @@ if( ! empty($gambar)){ // Jika data pada database tidak sama dengan empty (alias
     echo "<td>".$data->nama_file."</td>";
     echo "<td>".$data->ukuran_file." kB</td>";
     echo "<td>".$data->tipe_file."</td>";
-    
+
+            
 
 
 
@@ -54,6 +56,10 @@ if( ! empty($gambar)){ // Jika data pada database tidak sama dengan empty (alias
 </tr>
 </tbody>
 </table>
+<button onclick="goBack()">Go Back</button>
+                <script>
+                function goBack() {
+                window.history.back();
 </div>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>

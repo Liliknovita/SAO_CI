@@ -32,7 +32,7 @@
                 ADMINISTRATOR
               </a>
               <a href="<?php echo site_url ('proker')?>" class="list-group-item"><i class="fa fa-dashboard"></i> Absensi</a>
-              <a href="#" class="list-group-item"><i class="fa fa-book"></i> Surat</a>
+              <a href="<?php echo site_url ('Gambar')?>" class="list-group-item"><i class="fa fa-book"></i> Surat</a>
               <a href="<?php echo site_url ('proker')?>" class="list-group-item"><i class="fa fa-folder"></i> proker</a>
               <a href="<?php echo site_url ('inventaris')?>" class="list-group-item"><i class="fa fa-comments-o"></i> inventaris</a>
               <a href="<?php echo site_url ('catatan')?>" class="list-group-item"><i class="fa fa-comments-o"></i> catatan</a>
