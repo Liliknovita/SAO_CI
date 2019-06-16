@@ -35,7 +35,7 @@
               <a href="#" class="list-group-item"><i class="fa fa-book"></i> Surat</a>
               <a href="<?php echo site_url ('proker')?>" class="list-group-item"><i class="fa fa-folder"></i> proker</a>
               <a href="<?php echo site_url ('inventaris')?>" class="list-group-item"><i class="fa fa-comments-o"></i> inventaris</a>
-              <a href="#" class="list-group-item"><i class="fa fa-comments-o"></i> catatan</a>
+              <a href="<?php echo site_url ('catatan')?>" class="list-group-item"><i class="fa fa-comments-o"></i> catatan</a>
               <a href="logout.php" class="list-group-item"><i class="fa fa-sign-out"></i> Logout</a>
             </div>
         </div>
