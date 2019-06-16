@@ -31,9 +31,9 @@
               <a href="#" class="list-group-item active" style="text-align: center;background-color: black;border-color: black">
                 ADMINISTRATOR
               </a>
-              <a href="dashboard.php" class="list-group-item"><i class="fa fa-dashboard"></i> Absensi</a>
+              <a href="<?php echo site_url ('proker')?>" class="list-group-item"><i class="fa fa-dashboard"></i> Absensi</a>
               <a href="#" class="list-group-item"><i class="fa fa-book"></i> Surat</a>
-              <a href="#" class="list-group-item"><i class="fa fa-folder"></i> proker</a>
+              <a href="<?php echo site_url ('proker')?>" class="list-group-item"><i class="fa fa-folder"></i> proker</a>
               <a href="#" class="list-group-item"><i class="fa fa-comments-o"></i> inventaris</a>
               <a href="#" class="list-group-item"><i class="fa fa-comments-o"></i> catatan</a>
               <a href="logout.php" class="list-group-item"><i class="fa fa-sign-out"></i> Logout</a>
