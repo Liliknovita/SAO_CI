@@ -60,7 +60,9 @@ if( ! empty($gambar)){ // Jika data pada database tidak sama dengan empty (alias
                 <script>
                 function goBack() {
                 window.history.back();
-</div>
+    }
+  </script>
+
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
